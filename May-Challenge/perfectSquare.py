@@ -3,24 +3,29 @@
 # Note: Do not use any built-in library function such as sqrt.
 
 
-class Solution:
-    def isPerfectSquare(self, num: int) -> bool:
+# class Solution:
+#     def isPerfectSquare(self, num: int) -> bool:
         
-        first = 1
-        last = num
+#         first = 1
+#         last = num
         
-        while(first <= last):
+#         while(first <= last):
             
-            mid = (first+last)//2            
-            res = mid**2
+#             mid = (first+last)//2            
+#             res = mid**2
             
-            if res == num:
-                return True
-            elif res>num:
-                last = mid-1
-            else:
-                first = mid+1
+#             if res == num:
+#                 return True
+#             elif res>num:
+#                 last = mid-1
+#             else:
+#                 first = mid+1
                 
-        return False
+#         return False
         
-        
+input = "1 2 3 4 5 6"
+
+arr = list(map(int, input.rstrip().split()))
+
+print(arr)
+            
